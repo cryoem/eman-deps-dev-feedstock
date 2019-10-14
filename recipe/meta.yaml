@@ -1,0 +1,16 @@
+package:
+    name: eman-packaging
+    version: '1'
+
+build:
+    number: 0
+    skip: True  # [win32]
+
+requirements:
+    run:
+        - cryoem::constructor 2.3.0
+        - conda               4.6.14
+        - conda-build         3.17.8
+
+about:
+  summary: Meta-package for eman packaging

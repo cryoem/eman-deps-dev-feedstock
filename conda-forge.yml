@@ -1,0 +1,15 @@
+channels:
+  targets:
+  - [cryoem, main]
+
+github:
+  user_or_org: cryoem
+  repo_name: eman-packaging-feedstock
+
+provider:
+  linux: circle
+  osx: travis
+  win: appveyor
+
+azure:
+  build_id: blank
