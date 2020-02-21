@@ -8,7 +8,7 @@ build:
 
 requirements:
     run:
-        - cryoem::constructor 2.3.0
+        - cryoem::constructor 3.0.0
         - conda               4.8
         - conda-build         3.18
 
