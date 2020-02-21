@@ -9,8 +9,8 @@ build:
 requirements:
     run:
         - cryoem::constructor 2.3.0
-        - conda               4.6.14
-        - conda-build         3.17.8
+        - conda               4.8
+        - conda-build         3.18
 
 about:
   summary: Meta-package for eman packaging
