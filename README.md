@@ -1,5 +1,5 @@
-About eman-packaging-feedstock
-==============================
+About eman-packaging
+====================
 
 Home: 
 
@@ -89,43 +89,43 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-eman--packaging--feedstock-green.svg)](https://anaconda.org/cryoem/eman-packaging-feedstock) | [![Conda Downloads](https://img.shields.io/conda/dn/cryoem/eman-packaging-feedstock.svg)](https://anaconda.org/cryoem/eman-packaging-feedstock) | [![Conda Version](https://img.shields.io/conda/vn/cryoem/eman-packaging-feedstock.svg)](https://anaconda.org/cryoem/eman-packaging-feedstock) | [![Conda Platforms](https://img.shields.io/conda/pn/cryoem/eman-packaging-feedstock.svg)](https://anaconda.org/cryoem/eman-packaging-feedstock) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-eman--packaging-green.svg)](https://anaconda.org/cryoem/eman-packaging) | [![Conda Downloads](https://img.shields.io/conda/dn/cryoem/eman-packaging.svg)](https://anaconda.org/cryoem/eman-packaging) | [![Conda Version](https://img.shields.io/conda/vn/cryoem/eman-packaging.svg)](https://anaconda.org/cryoem/eman-packaging) | [![Conda Platforms](https://img.shields.io/conda/pn/cryoem/eman-packaging.svg)](https://anaconda.org/cryoem/eman-packaging) |
 
-Installing eman-packaging-feedstock
-===================================
+Installing eman-packaging
+=========================
 
-Installing `eman-packaging-feedstock` from the `cryoem` channel can be achieved by adding `cryoem` to your channels with:
+Installing `eman-packaging` from the `cryoem` channel can be achieved by adding `cryoem` to your channels with:
 
 ```
 conda config --add channels cryoem
 ```
 
-Once the `cryoem` channel has been enabled, `eman-packaging-feedstock` can be installed with:
+Once the `cryoem` channel has been enabled, `eman-packaging` can be installed with:
 
 ```
-conda install eman-packaging-feedstock
+conda install eman-packaging
 ```
 
-It is possible to list all of the versions of `eman-packaging-feedstock` available on your platform with:
+It is possible to list all of the versions of `eman-packaging` available on your platform with:
 
 ```
-conda search eman-packaging-feedstock --channel cryoem
+conda search eman-packaging --channel cryoem
 ```
 
 
 
 
-Updating eman-packaging-feedstock-feedstock
-===========================================
+Updating eman-packaging-feedstock
+=================================
 
-If you would like to improve the eman-packaging-feedstock recipe or build a new
+If you would like to improve the eman-packaging recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `cryoem` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `cryoem` channel.
-Note that all branches in the cryoem/eman-packaging-feedstock-feedstock are
+Note that all branches in the cryoem/eman-packaging-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
