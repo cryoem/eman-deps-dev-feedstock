@@ -1,6 +1,6 @@
 package:
     name: eman-packaging
-    version: '2'
+    version: '3'
 
 build:
     number: 0
